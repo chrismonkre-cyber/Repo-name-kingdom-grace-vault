@@ -1,6 +1,7 @@
 import PageBackground from "../components/PageBackground";
 import HeroHeader from "../components/HeroHeader";
 import GlassCard from "../components/GlassCard";
+import InstallSection from "../components/InstallSection";
 
 const DESKTOP = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/382298f7e_resources-about-desktop.png";
 const MOBILE = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/b18825553_resource-sabout-mobile.png";
@@ -35,6 +36,7 @@ export default function About() {
             Partner / Sow
           </a>
         </div>
+        <InstallSection />
       </div>
     </>
   );
